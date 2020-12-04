@@ -70,3 +70,10 @@ walk through of Existing Customer Login
  - enter your card number with no spaces or '-'
  - pick shipping option, this affects the shipping date I calculate later on. '1' or '2'
  - your order is submitted
+
+To compile source code:
+	javac jbg223/* .java
+To create executable: 
+	jar cfmv jbg223.jar Manifest.txt Interface.class manager.class managerView.class customerInsert.class customerView.class basic.class managerInsert.class 
+To run executable:
+	java -jar jbg223.jar

@@ -1,0 +1,52 @@
+Jude Gerhart CSE 241 project readme file
+
+This is my interface layout: 
+
+	Analytics Manger Interface
+		- rank states by customer density
+ 		- rank procuts by net sales revnue 
+
+	Product Manager Interface
+		- can change product's price listing  
+		- order more inventory for products
+
+	Create New Customer Interface
+		- uploads new customer profile
+		
+	Existing Customer Interface 
+		- create new order
+                - view past orders 
+
+
+Walk through of analystics manager: 
+ - Just press 'a' to open the interface. 
+ - These are regular statments
+ - Press the numbers 1, 2, or 3 to query, or 4 to exit. 
+
+
+Walk through of Product Manager Interface
+ - press 'b' to enter this interface
+ - enter your store id, which is numbers 1-6, enter 1 for example 
+ - press 1 to modify price of product
+ - enter '500' for ex
+ - enter a positive decimal number or int to set new price 
+ - press 2 to order more inventory of product 
+ - enter a int for product id, like 500 
+ - enter how many of this to buy more, try 12, this will add to the existing stock
+ 
+walk through of Existing custome login
+ - your customer is is between 1 and 101 
+ - try 1
+ - enter 1 to shop online for stores
+ - press 'a' or 'A' to create new order
+ - now categorys are displayed, once you add a item, you cannot remove it from cart(for simplicity)
+ - pick '2' for tech product category 
+ - pick '1' for electronics department 
+ - now products are displayed, pick 5 for example 
+ - enter 'y' or 'n' for another product, which will go through the past few steps again
+   and add anothe item to your cart. try it out! 20 is max items in cart. 
+ - enter 'n' once done shopping 
+ - because store 1 is a online store, I prompt for credit cards only 
+ - enter your card number with no spaces or '-'
+ - pick shipping option, this affects the shipping date I calculate later on. '1' or '2'
+ - your order is submitted

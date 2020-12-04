@@ -1,13 +1,35 @@
-Jude Gerhart CSE 241 project readme file
+							Jude CSE 241 Project
 
+Project Overview: DB for a store
+- The retailer interface project allowed me to apply database theory to a theoretical business needs by creating a database from scratch.
+- This interface offers 7 features to access data stored in 10 entity sets on oracle. Fake data is created and uploaded to mimic
+a retailer that would offer products for both online shopping and physical stores.  
+
+Skills I learned: JDBC
+- How to create a oracle database using SQL/PL with primary/forign keys, constraints, auto index for primary key features, implement triggers, etc. 
+- How to use Java Database Connectivity to interact with an oracle database while maintaining ACID properties. 
+- When to set auto commit to true/false.
+- Connections, statements, prepared statements, results sets and more. 
+- Methods to reduce overheard - like batch insertions, testing for connection speeds, pass connection as param, close statements when done.  
+
+Skills I practiced: OOP
+- Fundamentals: ArrayLists, Forcing good user input with Java, Exception handling. 
+- Abstraction of complex tasks: the customer cart > shopping > checkout interface code was complex and lend itself to abstraction 
+- Inheritance saved me a lot of work by compiling my helper functions in a superclass 
+- Use of overloaded classes for different data types to print to the user, get input, and retrieve data from result sets etc.
+
+Things I would change if I had more time: 
+  - I would add more wrapped JDBC system function calls to my super class, this would minimize the need of try-catch statements in my interface coding for clean code.
+  - Spend more time testing the use of overhear, replace one or two prepared statements with statements to get faster run time. 
+  
 This is my interface layout: 
 
-	Analytics Manger Interface
+	Analytics Manager Interface
 		- rank states by customer density
- 		- rank procuts by net sales revnue 
+ 		- rank procuts by net sales revenue 
 
 	Product Manager Interface
-		- can change product's price listing  
+		- change product's price listing  
 		- order more inventory for products
 
 	Create New Customer Interface
@@ -17,12 +39,10 @@ This is my interface layout:
 		- create new order
                 - view past orders 
 
-
-Walk through of analystics manager: 
+Walk through of Analytics Manager: 
  - Just press 'a' to open the interface. 
- - These are regular statments
- - Press the numbers 1, 2, or 3 to query, or 4 to exit. 
-
+ - These are regular statements
+ - Press the numbers 1, 2 to query, 3 to exit 
 
 Walk through of Product Manager Interface
  - press 'b' to enter this interface
@@ -34,17 +54,17 @@ Walk through of Product Manager Interface
  - enter a int for product id, like 500 
  - enter how many of this to buy more, try 12, this will add to the existing stock
  
-walk through of Existing custome login
+walk through of Existing Customer Login
  - your customer is is between 1 and 101 
  - try 1
  - enter 1 to shop online for stores
  - press 'a' or 'A' to create new order
- - now categorys are displayed, once you add a item, you cannot remove it from cart(for simplicity)
+ - now categories are displayed, once you add a item, you cannot remove it from cart(for simplicity)
  - pick '2' for tech product category 
  - pick '1' for electronics department 
  - now products are displayed, pick 5 for example 
  - enter 'y' or 'n' for another product, which will go through the past few steps again
-   and add anothe item to your cart. try it out! 20 is max items in cart. 
+   and add another item to your cart. try it out! 20 is max items in cart. 
  - enter 'n' once done shopping 
  - because store 1 is a online store, I prompt for credit cards only 
  - enter your card number with no spaces or '-'

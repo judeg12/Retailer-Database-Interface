@@ -1,10 +1,10 @@
 							Jude CSE 241 Project
 
 Project Overview: Database for a store
-- I gained experience in the conceptual design, logical design, implementation, operation, and maintenance of a relational database and associated applications.
+- I gained experience in the conceptual & logical design, implementation, operation, and maintenance of a relational database and associated applications.
 - This project allowed me to apply database theory to a theoretical business needs by creating a database from scratch.
-- This interface offers 7 features to access data stored in 10 entity sets on oracle. Mock data is created and uploaded to mimic
-a retailer that would offer products for both online shopping and physical stores.  
+- This interface offers 7 features to access data stored in 10 entity sets on oracle and required ~1200 lines of clean code. 
+- Hundreds of rows of mock data was created and uploaded to mimic a retailer company that would offer products for both online shopping and physical stores with customers. 
 - The skills I practiced/learned from this project was extremly useful for an internship I worked afterwards where I created a restful api using Java/Springboot framework.
 
 Skills I learned: JDBC

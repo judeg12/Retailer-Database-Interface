@@ -3,7 +3,7 @@
 Project Overview: Database for a store
 - I gained experience in the conceptual design, logical design, implementation, operation, and maintenance of a relational database and associated applications.
 - This project allowed me to apply database theory to a theoretical business needs by creating a database from scratch.
-- This interface offers 7 features to access data stored in 10 entity sets on oracle. Fake data is created and uploaded to mimic
+- This interface offers 7 features to access data stored in 10 entity sets on oracle. Mock data is created and uploaded to mimic
 a retailer that would offer products for both online shopping and physical stores.  
 
 Skills I learned: JDBC

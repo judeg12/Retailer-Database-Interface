@@ -5,13 +5,14 @@ Project Overview: Database for a store
 - This project allowed me to apply database theory to a theoretical business needs by creating a database from scratch.
 - This interface offers 7 features to access data stored in 10 entity sets on oracle. Mock data is created and uploaded to mimic
 a retailer that would offer products for both online shopping and physical stores.  
+- The skills I practiced/learned from this project was extremly useful for an internship I worked afterwards where I created a restful api using Java/Springboot framework.
 
 Skills I learned: JDBC
 - How to create a oracle database using SQL/PL with primary/forign keys, constraints, auto index for primary key features, implement triggers, etc. 
 - How to use Java Database Connectivity to interact with an oracle database while maintaining ACID properties. 
 - When to set auto commit to true/false.
 - Connections, statements, prepared statements, results sets and more. 
-- Methods to reduce overheard - like batch insertions, testing for connection speeds, pass connection as param, close statements when done.  
+- Reucing overheard - like batch insertions, pass connection as param, close statements when done.  
 
 Skills I practiced: OOP
 - Fundamentals: ArrayLists, Forcing good user input with Java, Exception handling. 
@@ -21,7 +22,7 @@ Skills I practiced: OOP
 
 Things I would change if I had more time: 
   - I would add more wrapped JDBC system function calls to my super class, this would minimize the need of try-catch statements in my interface coding for clean code.
-  - Spend more time testing the use of overhear, replace one or two prepared statements with statements to get faster run time. 
+  - Spend more time testing the use of overhead, replace one or two prepared statements with statements to get faster run time. 
   
 This is my interface layout: 
 
